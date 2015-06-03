@@ -11,6 +11,8 @@ __n__ = 2 * ( a<sub>m</sub> + a<sub>m-1</sub> * 10 + a<sub>m-2</sub> * 10<sup>2<
 
 The code below - written in Ruby - gets the corresponding __n__ number from an initial __m__ number:  
 {% highlight ruby %}
+FACTOR = 13
+
 def getNewMultiple(initial)
   result = 2 * initial.to_s.reverse.to_i
 
