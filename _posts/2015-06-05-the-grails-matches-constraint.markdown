@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Testing Grails blank Constraints"
-date:   2015-06-02 10:08:00
+title:  "Th Grails matches Constraint"
+date:   2015-06-05 22:00:00
 categories: grails
 ---
 I recently worked on a Grails 2.5.0 application and I was making the wrong assumption that the [matches constraint](https://grails.github.io/grails-doc/2.5.x/ref/Constraints/matches.html) is checked against the domain property all the times so even when its value is blank or null.
@@ -19,7 +19,7 @@ To get an error reported for blank values you need to explicitly add the blank c
 username matches: '[.\\-\\w]+', blank: false
 {% endhighlight %}
 
-While unit testing the constrained property I got into a different issue. There is still an [open bug](https://jira.grails.org/browse/GRAILS-11136) in Grails related to unit testing. If you rely on _grails.databinding.convertEmptyStringsToNull=false_ and _grails.databinding.trimStrings = false_ you need to be aware they're being ignored when running the unit tests. If you create your test fixture objects by means of the Map constructor Grails will populate your objects with null values for any blank Strings.  
+While unit testing the constrained property I got into a different issue. There is still an [open bug](https://jira.grails.org/browse/GRAILS-11136) in Grails related to unit testing. If you rely on _grails.databinding.convertEmptyStringsToNull=false_ and _grails.databinding.trimStrings = false_ you need to be aware they're being ignored when running the unit tests. If you create your test fixture objects by means of the Map constructor Grails will populate your objects with null values for any blank Strings: 
 {% highlight groovy %}
 def user = new User(username: '   ')
 assert user.username == null
