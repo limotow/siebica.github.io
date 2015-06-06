@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Th Grails matches Constraint"
+title:  "The Grails matches Constraint"
 date:   2015-06-05 22:00:00
 categories: grails
 ---
