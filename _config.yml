@@ -2,8 +2,8 @@
 title: Programming Thoughts
 email: siebica@users.noreply.github.com
 description: > # this means to ignore newlines until "baseurl:"
- Thoughts and opinions about programming in an Agile way coming from my every day 
- experience with Java, Ruby, Groovy, AngularJS and Arduino
+ Thoughts and opinions about Agile programming coming from my day-to-day 
+ experience with Java, Ruby, Groovy, AngularJS and Arduino.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://siebica.github.io" # the base hostname & protocol for your site
 twitter_username: siebica
