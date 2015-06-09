@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am a senior IT consultant with a focus on web applications. During my career, even since 2005, I have applied [Agile principles](http://www.agilemanifesto.org/principles.html) and practices. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Certified in Java, I am interested in dynamic programming languages and programming languages built on the Javascript. I like to program on the JVM, in [Ruby](https://www.ruby-lang.org) or [AngularJS](https://angular.io/). 
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I follow blogs of world leading consultants like [Martin Fowler's Bliki](http://martinfowler.com/bliki). I also read from IT publishers like [Manning](http://manning.com/) or [Pragmatic Programmer](https://pragprog.com/).
+
+In my spare time, I like playing around with [Arduino](http://www.arduino.cc/) and reading science-fiction books.
