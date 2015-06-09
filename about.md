@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a senior IT consultant with a focus on web applications. During my career, even since 2005, I have applied [Agile principles](http://www.agilemanifesto.org/principles.html) and practices. 
+My name is Sebastian Tincu. I am a senior IT consultant with a focus on web applications. During my career, even since 2005, I have applied [Agile principles](http://www.agilemanifesto.org/principles.html) and practices. 
 
 Certified in Java, I am interested in dynamic programming languages and programming languages built on the Javascript. I like to program on the JVM, in [Ruby](https://www.ruby-lang.org) or [AngularJS](https://angular.io/). 
 
