@@ -8,7 +8,7 @@ categories: arduino
 {% include gallery.html %}
 
 Continuing with the [Arduino Starter Kit](http://www.arduino.cc/en/Main/ArduinoStarterKit) series, the second project - [Spaceship Interface](http://www.arduino.cc/en/ArduinoStarterKit/Prj02) - is the first project to include code next to the actual circuit:  
-{% highlight c %}
+{% highlight c %}  
 // Create a global variable to hold the
 // state of the switch. This variable is persistent
 // throughout the program. Whenever you refer to
@@ -78,7 +78,7 @@ The program is uploaded onto the Arduino Uno board making two red LEDs alternati
 </a>
 
 `Four LEDs with no cover while the push button is kept switched on`
-<video width="740" height="1300" preload="metadata" controls="controls">
+<video preload="metadata" controls="controls">
   <source src="/assets/videos/arduino-starterkit-02-four-leds-no-cover-swith-on.mp4" type="video/mp4">
   Four LEDs with no cover - push button switched on
 </video>
