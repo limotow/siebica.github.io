@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+{% assign post = page %}
+
 <div class="post">
 
   <header class="post-header">
@@ -8,8 +11,39 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+    <article class="post-content">
+        {{ content }}
+
+        {% if post.category %}
+            {% for site_category in site.data.categories %}
+                {% assign category = site.data.categories[post.category] %}
+                {% if category %}
+                    {% capture category_content %} <span class="label" style="background-color:{{ category.color }}"><a href="/category/{{ post.category }}/">{{ category.name }}</a></span>{% endcapture %}
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            {% assign category_content = '' %}
+        {% endif %}
+
+        {% if post.tags.size > 0 %}
+            {% capture tags_content %}
+                {% if post.tags.size == 1 %}
+                    <i class="fa fa-tag"></i>
+                {% else %}
+                    <i class="fa fa-tags"></i>
+                {% endif %}
+            {% endcapture %}
+            {% for post_tag in post.tags %}
+                {% assign tag = site.data.tags[post_tag] %}
+                {% if tag %}{% capture tags_content_temp %}{{ tags_content }}<a href="/tag/{{ post.tag }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% else %}.{% endif %}{% endcapture %}
+                    {% assign tags_content = tags_content_temp %}
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            {% assign tags_content = '' %}
+        {% endif %}
+
+        <p id="post-meta">Posted in {{ category_content }} and tagged with {{ tags_content }}</p>
+    </article>
 
 </div>

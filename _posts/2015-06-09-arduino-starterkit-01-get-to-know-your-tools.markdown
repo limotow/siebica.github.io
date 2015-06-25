@@ -2,7 +2,8 @@
 layout:     post
 title:      "The Arduino Starter Kit - 01 Get to Know Your Tools"
 date:       2015-06-09 16:00:00
-categories: arduino
+category: programming
+tags: [arduino, arduino-starter-kit]
 ---
 
 {% include gallery.html %}

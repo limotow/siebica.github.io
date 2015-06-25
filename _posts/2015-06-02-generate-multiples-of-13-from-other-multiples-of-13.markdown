@@ -2,7 +2,8 @@
 layout: post
 title:  "Generating Multiples of 13"
 date:   2015-06-02 10:08:00
-categories: math primes
+category: mathematics
+tag: prime-numbers
 ---
 In the times when I was still superstitious I was playing around with the number 13 and came up with a formula to get a new multiple of 13 from an existing multiple of 13. The process of how to do it is described below.
 

@@ -2,7 +2,8 @@
 layout:     post
 title:      "The Arduino Starter Kit - 02 Starship Interface"
 date:       2015-06-18 23:41:00
-categories: arduino
+category: programming
+tags: [arduino, arduino-starter-kit]
 ---
 
 {% include gallery.html %}

@@ -2,7 +2,8 @@
 layout: post
 title:  "The Grails matches Constraint"
 date:   2015-06-05 22:00:00
-categories: grails
+category: programming
+tag: grails
 ---
 I recently worked on a Grails 2.5.0 application and I was making the wrong assumption that the [matches constraint](https://grails.github.io/grails-doc/2.5.x/ref/Constraints/matches.html) is checked against the domain property all the times so even when its value is blank or null.
  
