@@ -79,7 +79,9 @@ The program is uploaded onto the Arduino Uno board making two red LEDs alternati
 </a>
 
 `Four LEDs with no cover while the push button is kept switched on`
+{% raw %}
 <video preload="metadata" controls="controls">
   <source src="/assets/videos/arduino-starterkit-02-four-leds-no-cover-swith-on.mp4" type="video/mp4">
   Four LEDs with no cover - push button switched on
 </video>
+{% endraw %}
