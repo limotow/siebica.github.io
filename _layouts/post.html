@@ -12,6 +12,8 @@ layout: default
   </header>
 
     <article class="post-content">
+        {{ content }}
+
         {% if post.category %}
             {% for site_category in site.data.categories %}
                 {% assign category = site.data.categories[post.category] %}
@@ -41,8 +43,6 @@ layout: default
             {% assign tags_content = '' %}
         {% endif %}
 
-        {{ content }}
-        
         <p id="post-meta">Posted in {{ category_content }} and tagged with {{ tags_content }}</p>
     </article>
 
