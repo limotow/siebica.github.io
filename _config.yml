@@ -11,3 +11,5 @@ github_username:  siebica
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-merlot
